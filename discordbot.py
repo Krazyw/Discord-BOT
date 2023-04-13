@@ -19,7 +19,7 @@ async def hello(ctx):
 
 @bot.command()
 async def example(ctx): # change the (example) to the name of the command you want
-    await ctx.send('example') # basically send "example" when you type ",example"
+    await ctx.send('example') # basically send "example" when you type ";example"
 
 # Random dice number command
 
